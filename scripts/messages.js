@@ -52,8 +52,8 @@ if ( event.which === 13 ) {
 event.preventDefault( );
 let message = {
 "user": {
-"name": "--name--",
-"image": "--profile-image--"
+"name": "Yuri",
+"image": "https://static.squarespace.com/static/51b3dc8ee4b051b96ceb10de/51ce6099e4b0d911b4489b79/51ce61b6e4b0d911b449e0fa/1349213481006/1000w/Arnold-Back-Header.jpg"
 },
 "message": {
 "text": event.target.value,
