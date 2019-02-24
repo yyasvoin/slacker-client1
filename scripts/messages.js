@@ -28,7 +28,7 @@ return $article;
 }
 function loadMessages( ) {
 // not expecting use of promises or for them to understand
-them at least.
+//them at least.
 $.ajax('/messages', { method: 'GET', dataType: "json" })
 .then(function (result) {
 renderMessages(result);
